@@ -1,0 +1,81 @@
+####################################
+# Image2Skin Converter for TM2020: #
+####################################
+
+!!! The File/Folder Names are not allowed to have " " (Spacebar) in them !!!
+!!!           Your Trackmania user folder must be on Drive C:\            !!!
+
+
+
+#########################
+# How To Install / Use: #
+#########################
+
+1. Place the folder ".Image2Skin" next to the folder where your Skin images are located
+2. Go in ".Image2Skin" Folder and create a shortcut from "Image2Skin.bat"
+3. Place this shortcut next to the folder where your Skin images are located
+4. Right click on the shortcut -> Settings
+5. In this Settings window you will find a tab called "shortcut"
+6. The path in "Execute in" must be shortend delete the last section ".Image2Skin"
+7. press accept and the software is ready to use
+
+8. Dobble click the shortcut to execute the script
+9. It shows a list of all floders, with a numerical input you can select one of the folders.
+10. The script will try to convert all supported* Files.
+11. The script will ZIP them together.
+12. The script will Copy the ZIP into your Trackmania User Folder.
+13. The script will show the location where the ZIP was placed and the File size of your ZIP.
+
+
+
+##########################
+# Supported Skin Images: #
+##########################
+
+Details_AO.png
+Details_B.png
+Details_DirtMask.png
+Details_I.png
+Details_N.png
+Details_R.png
+Details_CoatR.png
+Skin_AO.png
+Skin_B.png
+Skin_DirtMask.png
+Skin_I.png
+Skin_N.png
+Skin_R.png
+Skin_CoatR.png
+Wheels_AO.png
+Wheels_B.png
+Wheels_DirtMask.png
+Wheels_I.png
+Wheels_N.png
+Wheels_R.png
+Wheels_CoatR.png
+Glass_AO.png
+Glass_B.png
+Glass_DirtMask.png
+Glass_I.png
+Glass_N.png
+Glass_R.png
+Glass_CoatR.png
+Icon.png
+
+
+
+Video Tutorial:
+https://streamable.com/dyw1no
+
+
+
+
+
+
+
+If the Script has a problem to locate your Trackmania Userfolder.
+create a file called "Image2Skin.cfg" in ".Image2Skin" folder
+and write a custom output path in to the first line.
+
+Example:
+C:\Users\admin\Desktop
